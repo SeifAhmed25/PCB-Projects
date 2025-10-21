@@ -1,37 +1,40 @@
 # Seif Ahmed - PCB Design Portfolio
 
-This repository showcases my practical work in PCB design, focusing on **schematic creation**, **PCB layout**, and **manufacturing optimization** using **KiCad** software.
+This repository showcases my practical work in **PCB design**, focusing on **schematic creation**, **PCB layout**, and **manufacturing optimization** using **KiCad** software.
 
 Projects are arranged from **latest to oldest**.
+
+**Tools & Skills:**  
+KiCad • Circuit Design • PCB Layout • DRC/ERC Checks • Soldering • Git Version Control • Documentation
 
 ---
 
 ## MCU Datalogger
 
 **Goal:**  
-Design a printed circuit board for a microcontroller data logger based on Atmega 328P-AU and is supported by two EEPROMs and a real*time clock.
+Design a printed circuit board for a microcontroller-based data logger using the **ATmega328P-AU**, supported by two **EEPROMs** and a **real-time clock (RTC)**.
 
 **Key Features:**
-- this project is supposed to be design by two ways, 2 layer design and 4 layer design and the versions is controlled by git tool.
-- ATmega328P-AU acts as the central controller.
-- board handles communication with the RTC and EEPROM.
+- Designed in two versions: a **2-layer** and a **4-layer** PCB, both managed using **Git** version control.  
+- The **ATmega328P-AU** acts as the central controller.  
+- Handles communication with the **RTC** and **EEPROM** modules.  
 - Includes indicator LEDs and a reset circuit for the microcontroller.
-  
+
 **Main Components:**
-- ATmega328p-AU
-- crystals
-- battery
-- capacitors (decoupling capacitors)
-- resistors 
+- ATmega328P-AU  
+- Crystal oscillator  
+- Battery  
+- Capacitors (decoupling)  
+- Resistors  
 
 **Project Pictures:**  
 - **Board Schematic**  
   ![Board Schematic](Boards_Pics/MCU%20Datalogger%20Sch.png)  
 - **Board Layout**  
-  ![Board Top View](Boards_Pics/MCU%20Datalogger%20Layout.png)  
+  ![Board Layout](Boards_Pics/MCU%20Datalogger%20Layout.png)  
 - **Board Top View**  
   ![Board Top View](Boards_Pics/MCU%20Datalogger%20Topview.png)  
-- **Board Backward View**  
+- **Board Back View**  
   ![Board Back View](Boards_Pics/MCU%20Datalogger%20Backward.png)
 
 ---
@@ -39,8 +42,8 @@ Design a printed circuit board for a microcontroller data logger based on Atmega
 ## Solar Power Supply PCB
 
 **Goal:**  
-implement a PCB that delivers a **regulated 3.3 V output** from a **solar panel**, acting as a **solar energy regulator module**.  
-This circuit was originally designed by *Elektor Magazine* and reimplemented in KiCad.
+Design and implement a PCB that delivers a **regulated 3.3 V output** from a **solar panel**, functioning as a **solar energy regulator module**.  
+This circuit was originally designed by *Elektor Magazine* and reimplemented in **KiCad**.
 
 **Key Features:**
 - Converts unregulated solar panel voltage into regulated **3.3 V**.  
@@ -50,7 +53,7 @@ This circuit was originally designed by *Elektor Magazine* and reimplemented in 
 **Main Components:**
 - Male connectors  
 - Protection diodes  
-- Inductor (for switching regulator)  
+- Inductor (switching regulator)  
 - DC-DC converter  
 - Resistors  
 
@@ -59,7 +62,7 @@ This circuit was originally designed by *Elektor Magazine* and reimplemented in 
   ![Board Schematic](Boards_Pics/Solar%20Supply%20Schm.png)  
 - **Board Top View**  
   ![Board Top View](Boards_Pics/Solar%20Supply%20Board%20Topview.png)  
-- **Board Backward View**  
+- **Board Back View**  
   ![Board Back View](Boards_Pics/Solar%20Supply%20Board%20Backward.png)
 
 ---
@@ -67,7 +70,7 @@ This circuit was originally designed by *Elektor Magazine* and reimplemented in 
 ## Breadboard Power Supply PCB
 
 **Goal:**  
-Design a compact PCB that directly plugs into a **breadboard** and provides **5 V** and **3.3 V** regulated outputs.
+Design a compact PCB that plugs directly into a **breadboard** and provides **5 V** and **3.3 V** regulated outputs.
 
 **Key Features:**
 - Fits perfectly on a standard breadboard.  
@@ -90,7 +93,7 @@ Design a compact PCB that directly plugs into a **breadboard** and provides **5 
   ![Board Schematic](Boards_Pics/BreadBoard%20Power%20Supply%20Sch.png)  
 - **Board Top View**  
   ![Board Top View](Boards_Pics/BreadBoard%20Power%20Supply%20Topview.png)  
-- **Board Backward View**  
+- **Board Back View**  
   ![Board Back View](Boards_Pics/BreadBoard%20Power%20Supply%20Backward.png)
 
 ---
@@ -114,7 +117,11 @@ An introductory project for learning **KiCad** fundamentals through schematic ca
 **Project Pictures:**  
 - **Board Top View**  
   ![Board Top View](Boards_Pics/PCB%20LED%20Torch%20Board%20Topview.png)  
-- **Board Backward View**  
+- **Board Back View**  
   ![Board Back View](Boards_Pics/PCB%20LED%20Torch%20Board%20Backward.png)
 
 ---
+
+**Author:** Seif Ahmed  
+**Contact:** [Email](mailto:seif7760@gmail.com)  
+**Software Used:** KiCad 9.0
